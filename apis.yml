@@ -1,19 +1,48 @@
 aid: atalanta
 name: Atalanta
-description: Atalanta is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Atalanta is a mathematical AI company building provably correct decision-making
+  for the world's most important missions. Its flagship platform, Argo, is described
+  as the first software understanding platform - it uses mathematical proof and formal
+  verification to establish safety, security, and performance guarantees for software-defined
+  and autonomous systems at operational speed, moving beyond the limits of traditional
+  testing. Argo identifies failure modes before deployment and verifies compliance
+  with critical constraints across energy (nuclear and grid control systems), space
+  (satellite and communications networks), and defense (complex military systems and
+  data isolation). Atalanta was founded by Anjana Rajan and Jonathan Ring, is headquartered
+  in Washington, D.C., and is backed by Felicis and In-Q-Tel.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/pch7hdea/production/8dd67538359afb52272765b019dc9a77b1290fe6-2400x1260.jpg
 url: https://raw.githubusercontent.com/api-evangelist/atalanta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - felicis
+- in-q-tel
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Formal Verification
+- Software Assurance
+- Cybersecurity
+- Defense
+- Autonomous Systems
+- National Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://atalanta.tech
+- type: Blog
+  url: https://atalanta.tech/articles
+- type: Support
+  url: https://atalanta.tech/contact
+- type: PrivacyPolicy
+  url: https://atalanta.tech/privacy-policy
+- type: TermsOfService
+  url: https://atalanta.tech/terms-of-use
+- type: LinkedIn
+  url: https://www.linkedin.com/company/atalanta-technologies/
+- type: Twitter
+  url: https://x.com/AtalantaTech
+- type: YouTube
+  url: https://www.youtube.com/@AtalantaTech
+- type: DomainSecurity
+  url: security/atalanta-domain-security.yml
+- type: LLMsTxt
+  url: llms/atalanta-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
