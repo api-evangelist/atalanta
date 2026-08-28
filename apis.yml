@@ -11,6 +11,17 @@ description: >-
   (satellite and communications networks), and defense (complex military systems and
   data isolation). Atalanta was founded by Anjana Rajan and Jonathan Ring, is headquartered
   in Washington, D.C., and is backed by Felicis and In-Q-Tel.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
